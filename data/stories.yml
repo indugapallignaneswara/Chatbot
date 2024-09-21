@@ -1,0 +1,36 @@
+version: "3.1"
+
+stories:
+  - story: Greet and ask for buyer intent
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: buyer_intent
+      - action: action_handle_buyer_intent
+
+  - story: Handle a low offer
+    steps:
+      - intent: offer
+        entities:
+          - amount: 80
+      - action: action_handle_offer
+
+  - story: Handle a high offer and confirm proceeding
+    steps:
+      - intent: offer
+        entities:
+          - amount: 600
+      - action: action_handle_offer
+      - intent: confirm
+      - action: utter_offer_accepted
+      - action: utter_goodbye  # Move goodbye here to maintain consistency
+
+  - story: Proceed with standard amount
+    steps:
+      - intent: offer
+      - action: action_handle_offer
+      - intent: proceed_with_standard
+      - action: action_proceed_standard_amount
+      - intent: confirm
+      - action: utter_offer_accepted
+      - action: utter_goodbye

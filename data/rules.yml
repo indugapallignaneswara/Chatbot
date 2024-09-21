@@ -1,0 +1,28 @@
+version: "3.1"
+
+rules:
+  - rule: Respond to greetings
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Handle buyer intent
+    steps:
+      - intent: buyer_intent
+      - action: action_handle_buyer_intent
+
+  - rule: Handle valid offer
+    steps:
+      - intent: offer
+      - action: action_handle_offer
+
+  - rule: Confirm proceeding with offer
+    steps:
+      - intent: confirm
+      - action: utter_offer_accepted
+      - action: utter_goodbye  # Move to goodbye after confirming the offer
+
+  - rule: End conversation
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye

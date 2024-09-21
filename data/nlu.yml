@@ -1,0 +1,74 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hi
+      - hello
+      - good morning
+      - hey there
+
+  - intent: goodbye
+    examples: |
+      - goodbye
+      - see you later
+      - have a nice day
+
+  - intent: bot_challenge
+    examples: |
+      - what are you?
+      - who are you?
+      - tell me about yourself
+
+  - intent: offer
+    examples: |
+      - I want to offer [100](amount)
+      - Can I offer [200](amount)?
+      - My offer is [150](amount)
+      - I would like to offer [250](amount)
+      - I offer [80 dollars](amount)
+      - My proposal is [300](amount)
+      - I want to offer [400](amount)
+      - Can I pay [500](amount)?
+      - I’d like to give [600](amount)
+      - I propose [700](amount)
+      - How about [800](amount)?
+      - I can offer [900](amount)
+      - I wish to pay [1000](amount)
+      - Would you take [50](amount)?
+      - My offer stands at [350](amount)
+      - I will give [450](amount)
+      - How much for [250](amount)?
+      - Can we settle for [550](amount)?
+      - I'm ready to pay [750](amount)
+      - I can afford [350](amount)
+      - Is [400](amount) acceptable?
+      - I want to negotiate at [600](amount)
+      - I'm thinking about [650](amount)
+
+  - intent: buyer_intent
+    examples: |
+      - I want to buy a book
+      - I am here to buy the book
+      - Just browsing
+      - Looking around for books
+
+  - intent: thank_you
+    examples: |
+      - Thank you
+      - Thanks
+      - Appreciate it
+      - Thank you very much
+
+  - intent: proceed_with_standard
+    examples: |
+      - Okay, I will proceed with the standard amount
+      - I accept the standard price
+
+  - intent: confirm
+    examples: |
+      - okay
+      - yes
+      - sure
+      - let's proceed
+      - I agree

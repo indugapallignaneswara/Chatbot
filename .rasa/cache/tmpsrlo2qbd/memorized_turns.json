@@ -1,0 +1,27 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJwty0EKwCAMBMCv5AFS2qtfEREpEQI1Fo29iH9vir2EXXbixjQw7opPiKdQYQtjhcAxo4W/XNQEWW27irQP5dJZLLhj2w3o8Tr2hlU3ZCEhVOYW8waI9V99SQnrnP4FiRErug==": "action_handle_offer",
+    "eJytjVEKAyEMRK+SA8jS/fUqIiLbLBvQWDT2R7x7U9wD9KM/wwzzhnFjGhiviu8QD6HCFsYygWNGC3dI1ARZ2ZaKtC+US2ex4PbtYUDFa9kbVu2QhYRQMbcwb4BY98qX88Q6fzu9Ij8ThjX527X/AGBPWBE=": "action_listen",
+    "eJy9j0EKAyEMRa+SA0hpt15FRGTMMAEnDpppF+Ldm2K7bzfdhIT/Pv/H9WGgHxXvIS5ChS30uQSOO1p4H5maICvbcpH2gvZyslhwt8vVgA6v4tmwqoYsJISKuYl5A8TqV76sK9bxXegWOWUM0/Lf6J/+/QQctSyIKTxIttBE28eaxvBPZKeBXg==": "action_proceed_standard_amount",
+    "eJy9j8EKwyAMhl/FB5CxXX0VkSA1pYKNRdPtIH33pTjvHYxdQkK+ny+x7dCqbQWf4CeOmYxqvQHyKxr1GVKsjCRsTZnrCa15JzbKPm53raQ4We4Vi+yQOHJEwWzHnFaRJC98nmcsxzXp4ikkhB75r/qrf4dgK3lCDPCKvEBlud6XcFE4siMGXfibC9wbelyxoQ==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJydjtEJgDAMRFfJAJ2gq5RSqgQJaJU0FaR0dwNV8EcE/3LH411cbQbqxriHOAqtyULtR0hxQQtXmCkLJmVLRlaGkkaxMDGitA9HEUEOHf1nePlCBSSE2YIbyqEbXeoN3PZn3Zo/AZ5HW0c=": "action_handle_buyer_intent",
+    "eJydjmEKgzAMha+SA3iCXkWkdO7hAppJmwpSvPsCneB+iMN/eeHl+9KWraEyRyw+9MpvcVTq4CVMcPQNIyeFWDcnROuwWFRHQwR0u2BkVURfq/cIJ18YgJWRHLWPvJqjQruGdvpx/afkFeQ5wv9c3jZ2HxBXh0s=": "action_listen",
+    "eJy1j1EKAiEQhq8yB5CoV68iIlazJbgaOgYh3r1ZbJcNiiLoRWaGz++fUbUJqJeEV2MP5GKQUHthgh1RwqPxLhMGZkvGxIwL3JKEU0Kk9sFRiDCZjv5meLMFCxw5zBLUvtw4o0u1gNm+Hn8Zcrbh6NE8/fxv4nJW9pHyBI2xTC6122wF8KNfbtCxVXYcBkyt6TuoJbFU": "action_handle_offer",
+    "eJy1j90KAiEQRl9lHkCibn0VEbGaLcHV0DEI2XdvFttlg6If6kac4ZtzZlQdBNRTwrOxO3IxSKjtY4LtUcKt8C4TBs6WjIkzLnBJEg4JkYYXjEKEybTod4QnWzDAkcMsQW3LhR0NqgVM9GX7TcnRhr1Hczf5X+N8VvaR8hjqYxlZarNaC+BHP9ygxRbu2HWYPjuzjfxMra+0Id2r": "action_listen",
+    "eJy9j1EKwjAQRK+yByiiv7lKCCHqVoNtIslGKCF3d0usVFC0gv6E7DL7Zkbm0kA+B7xosyPrnYBcP9qZHgXchs5GQsfaFDGwxjoeScAhIFJ5w0hEGHSVfkd4kYIBlixGAXKbBvaoUNXARJ+vPzQ5GrfvUD9c/tbxXit2nuIo6n0aWXKzWjfAj3qaoMpm3r5tMSyrWU/+a72o72RAHPikB59KUVd9MAIs": "utter_thank_you",
+    "eJy9klEKwjAQRK+yByiiv7lKKCHqVoNtIslGKKF375ZYraDYFvQnZMPsvBmITF0B6erxpvSBjLMCUr4oqxsUcB9qEwgta2NAzxpjeSQBJ49I3RePSIReZek6hw8p2MCQwSBA7mPLjGxaFjC6T59nQs7aHmtUL5u/JT5qhdpRGESNi4OX3G22BfBRvk2QZRO2qyr0y2rmlf+iF/UdAcSBL6p1cd5ve8pXY8oeCPonlw==": "action_listen",
+    "eJy9kuEKgjAUhV/lPoBE/d2riAzNq410i+0uENm7e2VZBkVa2J+xO8493zmwtA8J9BeLV5kfSRktoI8XqfMWBdyGRjlCzVrv0LJGaR5JQG0RKXzw8ERoZZR+5/AmBRsoUugEpIXvmBFNswQm9/nzQsgp12WD8mlzW+K9lmsMuVHUGj96pYfdPgE+spcJomzGNlWFdl3NuPJf9Kq+E4A48Fl2xi/7bQ/5RphfutTGlEWHIWQDYCZLIA==": "utter_goodbye",
+    "eJy9k2EKgzAMha+SA8jY/vYqIkVndGXajjYdiHh3I9XNwcbU4f6UJry8Lw/auO0iaG8W7zI9kzJaQBsuUqc1ChiLSjlCzVrv0LJGaS5JQGkRqfvi4YnQyiDd5vBhCzZQpNAJiDPfMCOYJhFM7vP2Qsgl1XmF8mVyX+IjlqsMuUFUGz94xafDMQI+krcbBNmMbYoC7bqYYeS/6FV5JwDxwlfZGL/stT3lO2F+yVIak2cNLvw3o3gjIukBew9uuQ==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVSaWVQAsgvNraWADfU1Fs": "action_handle_buyer_intent",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVSaWVQAsgPCKNykjMS8lJjUfRScDcWAC2R3OV": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPy0ttai2NhYA6cYbgA==": "action_handle_offer",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPy0ttaiWODMyEvNSclLjIVpwmRQLAPOLN50=": "action_listen",
+    "eJyljk0KgCAQha/iATqBV4kYREcUbJRxqoV49wTbBkG798H7W1tfVCuMJxgrMZNWbQogs6NWD6RYBWl4j4o8PJEGilbZe+T+rSMYcglhRn41vb0pnC2igytKgCpjz7DrfbsBerdYBw==": "action_proceed_standard_amount",
+    "eJyljkEKgDAMBL/SB/iCfkUkhDalBU0ljXoo/t2CehQK3rKwM5uxnoOpq9AO6DRltqbeBzAuZM0T5lSUuHW3QtI6iVtUa3IIJGefIyL7meBGfpm+vlklOyIPR9IIRdseiu90vuyLAS55Y+0emS7xsn9n": "action_listen",
+    "eJy9j0EKhTAMRK+SA5SPbnuVUkrRyA/UVNropnh3I/0H+AtxM2SYNwxx7TTQtoJHiJNQZgutH4HjihZ+JlEVZGVrylJvaM07iwU3fgYDKl7DvWLRDFlICBVzHfMGiLWvfF4WLOd/o9/Ic8LQK+9OP/2vvwBhYIIa": "action_handle_offer",
+    "eJzdj0EKhTAMRK+SA5SPbnuVUkrRyA/UVNropnh3I/0H+CsXboYM84Yhrp0G2lbwCHESymyh9SNwXNHCzySqgqxsTVnqDa15Z7Hgxs9gQMVruFcsmiELCaFirmPeALH2lc/LguX8b/QbeU4YeuXZ6Rf96y+7Ja5x": "action_listen"
+  }
+}

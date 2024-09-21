@@ -1,0 +1,62 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - offer
+  - buyer_intent
+  - thank_you
+  - proceed_with_standard
+  - confirm
+
+entities:
+  - amount
+
+responses:
+  utter_greet:
+    - text: "Hello! Are you looking to buy a book or just browsing?"
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day!"
+
+  utter_bot_challenge:
+    - text: "I'm your negotiation assistant here to help you with your book purchase!"
+
+  utter_offer_accepted:
+    - text: "Your offer is acceptable. Shall we proceed?"
+
+  utter_invalid_offer:
+    - text: "Sorry, we cannot accept {amount}. Our manufacturing cost is more than the quoted amount."
+
+  utter_standard_proceed:
+    - text: "Let's proceed with the standard amount."
+
+  utter_acceptable_offer:
+    - text: "Your offer of {amount} is acceptable. Shall we proceed?"
+
+  utter_high_offer:
+    - text: "Your offer is too high. Can we negotiate further?"
+
+  utter_low_offer:
+    - text: "Your offer is too low. We can't accept that."
+
+  utter_thank_you:
+    - text: "Thank you for your response!"
+
+actions:
+  - action_handle_offer
+  - action_handle_buyer_intent
+  - action_proceed_standard_amount
+
+slots:
+  offer_amount:
+    type: float
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: amount
+        intent: offer
+      - type: from_text
+        conditions:
+          - active_loop: null
